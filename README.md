@@ -1,2 +1,3 @@
 # Translations-for-E16
-New translations for the Enlightenment 16 project
+
+French translations (only latest versions will appear here) for the e16 project.
