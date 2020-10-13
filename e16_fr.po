@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: e16\n"
 "Report-Msgid-Bugs-To: enlightenment-intl@lists.sourceforge.net\n"
-"POT-Creation-Date: 2020-05-22 14:39+0200\n"
-"PO-Revision-Date: 2020-05-23 15:00+0200\n"
+"POT-Creation-Date: 2020-05-27 21:32+0200\n"
+"PO-Revision-Date: 2020-10-13 14:42+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -18,8 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2014-05-25 05:43+0000\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: src/about.c:35
 #, c-format
@@ -303,7 +302,7 @@ msgstr "Arrière-plan"
 
 #: src/backgrounds.c:2227
 msgid "Desktop Background Settings"
-msgstr "Paramètres d'arrière-plan du bureau"
+msgstr "Paramètres de l'Arrière-plan du bureau"
 
 #: src/backgrounds.c:2231
 msgid ""
@@ -1063,9 +1062,9 @@ msgstr ""
 "\n"
 "Cela signifie qu'Enlightenment (ou une des bibliothèques associées) a\n"
 "effectué une opération mathématique illégale (ex. : division par zéro).\n"
-"Il s'agit sûrement d'un bogue, il est recommandé de redémarrer\n"
+"Il s'agit sûrement d'un bogue, il est recommandé de relancer\n"
 "Enlightenment maintenant. Si vous souhaitez aider à corriger ce bogue,\n"
-"compilez E16 avec les symboles de débogage (-g) et démarrez-le à\n"
+"compilez E16 avec les symboles de débogage (-g) et exécutez-le à\n"
 "partir de gdb afin de fournir une pile d'appel ainsi que le contenu\n"
 "des variables dans un rapport de bogue.\n"
 
@@ -1086,9 +1085,9 @@ msgstr ""
 "\n"
 "Cela signifie qu'Enlightenment (ou une des bibliothèques associées) a\n"
 "accédé à une zone de mémoire système qui ne lui était pas autorisée.\n"
-"Il s'agit sûrement d'un bogue, il est recommandé de redémarrer\n"
+"Il s'agit sûrement d'un bogue, il est recommandé de relancer\n"
 "Enlightenment maintenant. Si vous souhaitez aider à corriger ce bogue,\n"
-"compilez E16 avec les symboles de débogage (-g) et démarrez-le à\n"
+"compilez E16 avec les symboles de débogage (-g) et exécutez-le à\n"
 "partir de gdb afin de fournir une pile d'appel ainsi que le contenu\n"
 "des variables dans un rapport de bogue.\n"
 
@@ -1130,7 +1129,7 @@ msgstr "Message"
 #: src/ipc.c:1507 src/ipc.c:1514
 #, c-format
 msgid "e16 was built without %s support"
-msgstr "Enlightenment a été compilé sans prise en charge de : %s"
+msgstr "Enlightenment a été compilé sans prise en charge de %s"
 
 #: src/ipc.c:1508
 msgid "composite"
@@ -1138,7 +1137,7 @@ msgstr "Extension Composite"
 
 #: src/ipc.c:1515
 msgid "sound"
-msgstr "Système Son"
+msgstr "Son"
 
 #: src/ipc.c:1859
 msgid "Enlightenment IPC Commands Help\n"
@@ -1349,7 +1348,7 @@ msgstr "Activer le Zoom"
 
 #: src/pager.c:1784 src/pager.c:1875
 msgid "Pager scanning speed:"
-msgstr "Vitesse de balayage du pager :"
+msgstr "Vitesse de balayage du Pager :"
 
 #: src/pager.c:1785 src/pager.c:1876
 msgid "lines per second"
@@ -1439,15 +1438,15 @@ msgid ""
 msgstr ""
 "ERREUR !\n"
 "\n"
-"Le gestionnaire de session qui était ici est perdu ?\n"
-"Au pied gestionnaire de session, au pied ! Tu veux un os ?\n"
-"Bon viens maintenant, ça suffit ! Tant pis, on continue sans\n"
-"gestionnaire de session.\n"
+"Où est passé le gestionnaire de session qui était là ?\n"
+"Au pied gestionnaire de session... Au pied ! Tu veux un os ?\n"
+"Allez viens maintenant, ça suffit ! Tant pis, on continue sans\n"
+"gestionnaire de session...\n"
 "\n"
 "Je survivrai quand même.\n"
 "\n"
 "\n"
-"... Enfin j'espère. (NdT : sans commentaires !)\n"
+"... Enfin j'espère.\n"
 
 #: src/session.c:632
 msgid "Are you sure?"
@@ -2094,7 +2093,7 @@ msgstr "Thème"
 
 #: src/theme.c:440
 msgid "Theme Settings"
-msgstr "Paramètres du thème"
+msgstr "Paramètres du Thème"
 
 #: src/theme.c:444
 msgid ""
@@ -2404,7 +2403,7 @@ msgstr "À propos de ce thème"
 
 #: config/strings.c:96 config/strings.c:118 config/strings.c:193
 msgid "Restart"
-msgstr "Redémarrer E16"
+msgstr "Relancer"
 
 #: config/strings.c:97 config/strings.c:119 config/strings.c:194
 msgid "Log Out"
@@ -2649,6 +2648,14 @@ msgstr "Applications"
 #: config/strings.c:192
 msgid "Epplets"
 msgstr "Epplets"
+
+#, fuzzy
+#~ msgid "Clicking in a window does not raise it"
+#~ msgstr "Toujours élever une fenêtre qui reçoit un clic"
+
+#, fuzzy
+#~ msgid "Only primary mouse button can raise window"
+#~ msgstr "Bouton de la souris pour sélectionner et déplacer les fenêtres :"
 
 #~ msgid "Use saveunders to reduce window exposures"
 #~ msgstr "Utiliser le SaveUnder pour réduire le nombre de rafraîchissements"
