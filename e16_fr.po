@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: e16\n"
 "Report-Msgid-Bugs-To: enlightenment-intl@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-10-14 17:32+0200\n"
-"PO-Revision-Date: 2020-10-14 19:48+0200\n"
+"PO-Revision-Date: 2020-11-01 15:52+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -310,7 +310,7 @@ msgid ""
 "Background Settings Dialog"
 msgstr ""
 "Bureau Enlightenment\n"
-"Dialogue de paramétrage d'arrière-plan"
+"Dialogue de paramétrage de l'arrière-plan"
 
 #: src/comms.c:244
 msgid "E IPC Error"
@@ -851,7 +851,7 @@ msgstr "Icône E16 en premier, puis Icône de l'Appli"
 
 #: src/focus.c:1018
 msgid "First App Icon, then E Icon"
-msgstr "Icône de l'Application en premier, puis Icône E16"
+msgstr "Icône de l'Appli en premier, puis Icône E16"
 
 #: src/focus.c:1032
 msgid "Focus"
@@ -933,7 +933,7 @@ msgid ""
 msgstr ""
 "Cette fenêtre n'appartient actuellement à aucun groupe.\n"
 "Vous ne pouvez détruire un groupe ou retirer une fenêtre d'un groupe\n"
-"seulement si la fenêtre courante appartient au moins à un groupe."
+"qu'à partir d'une fenêtre qui appartient à au moins un groupe."
 
 #: src/groups.c:835
 msgid ""
@@ -1120,7 +1120,7 @@ msgstr "Erreur de sélection !"
 #: src/hints.c:611
 #, c-format
 msgid "Could not acquire selection: %s"
-msgstr "Impossible de faire la sélection  : %s"
+msgstr "Impossible de faire la sélection : %s"
 
 #: src/iconify.c:478
 msgid "Iconbox Options"
@@ -1211,7 +1211,7 @@ msgstr ""
 "Veuillez rectifier cette situation et vous assurer qu'il est\n"
 "correctement installé.\n"
 "\n"
-"Les causes peuvent être: une mauvaise construction du paquet,\n"
+"Les causes peuvent être : une mauvaise construction du paquet,\n"
 "un effacement manuel de ce programme, ou une erreur lors de\n"
 "l'installation d'Enlightenment.\n"
 
@@ -1336,11 +1336,11 @@ msgstr "Désactiver Capture d'écran"
 
 #: src/pager.c:1033
 msgid "High Quality Off"
-msgstr "Désactiver Haute Qualité"
+msgstr "Désactiver Haute qualité"
 
 #: src/pager.c:1035
 msgid "High Quality On"
-msgstr "Activer Haute Qualité"
+msgstr "Activer Haute qualité"
 
 #: src/pager.c:1040
 msgid "Snapshotting On"
@@ -1506,7 +1506,7 @@ msgid ""
 "Settings Dialog"
 msgstr ""
 "Dialogue de paramétrage\n"
-"de Session"
+"de la Session"
 
 #: src/settings.c:88
 msgid "Move Methods:"
@@ -1723,7 +1723,7 @@ msgstr ""
 
 #: src/settings.c:588
 msgid "Enable Composite"
-msgstr "Activer l'extension Composite"
+msgstr "Activer l'extension composite"
 
 #: src/settings.c:596
 msgid "Enable Fading"
@@ -1767,7 +1767,7 @@ msgstr "Extension Composite"
 
 #: src/settings.c:677
 msgid "Composite Settings"
-msgstr "Paramètres de l'extension Composite"
+msgstr "Paramètres de l'Extension composite"
 
 #: src/settings.c:681
 msgid ""
@@ -1775,7 +1775,7 @@ msgid ""
 "Settings Dialog"
 msgstr ""
 "Dialogue de paramétrage de\n"
-"l'extension Composite"
+"l'Extension composite"
 
 #: src/settings.c:762
 msgid "Enlightenment Settings"
@@ -2109,7 +2109,7 @@ msgid ""
 "Settings Dialog"
 msgstr ""
 "Dialogue de paramétrage\n"
-"du thème d'Enlightenment"
+"du Thème d'Enlightenment"
 
 #: src/tooltips.c:850
 msgid "Display Tooltips"
