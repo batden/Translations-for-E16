@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: e16\n"
 "Report-Msgid-Bugs-To: enlightenment-intl@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-10-14 17:32+0200\n"
-"PO-Revision-Date: 2020-11-01 15:52+0100\n"
+"PO-Revision-Date: 2020-11-10 17:43+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -1141,11 +1141,11 @@ msgstr "Enlightenment a été compilé sans prise en charge de %s"
 
 #: src/ipc.c:1507
 msgid "composite"
-msgstr "Extension Composite"
+msgstr "composite"
 
 #: src/ipc.c:1514
 msgid "sound"
-msgstr "Son"
+msgstr "son"
 
 #: src/ipc.c:1858
 msgid "Enlightenment IPC Commands Help\n"
@@ -1490,7 +1490,7 @@ msgstr "Activer le dialogue de fermeture de session"
 
 #: src/session.c:754
 msgid "Enable Reboot/Halt on Logout"
-msgstr "Activer Redémarrer / Arrêter à la fermeture de session"
+msgstr "Activer Éteindre / Redémarrer à la fermeture de session"
 
 #: src/session.c:760
 msgid "Session"
@@ -1763,7 +1763,7 @@ msgstr "Opacité par défaut des fenêtres nouvellement ouvertes :"
 
 #: src/settings.c:677
 msgid "Composite"
-msgstr "Extension Composite"
+msgstr "Extension composite"
 
 #: src/settings.c:677
 msgid "Composite Settings"
@@ -2403,7 +2403,7 @@ msgstr "Aide"
 
 #: config/strings.c:94 config/strings.c:116
 msgid "About Enlightenment"
-msgstr "À propos d’Enlightenment"
+msgstr "À propos de Enlightenment"
 
 #: config/strings.c:95 config/strings.c:117
 msgid "About this theme"
@@ -2459,7 +2459,7 @@ msgstr "Laisser cette fenêtre seule"
 
 #: config/strings.c:130
 msgid "Remember..."
-msgstr "Mémorisation ..."
+msgstr "Mémorisation..."
 
 #: config/strings.c:131
 msgid "Window Size"
