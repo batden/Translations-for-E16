@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: e16\n"
 "Report-Msgid-Bugs-To: enlightenment-intl@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-04-30 06:19+0200\n"
-"PO-Revision-Date: 2022-04-30 09:51+0200\n"
+"POT-Creation-Date: 2022-05-13 10:36+0200\n"
+"PO-Revision-Date: 2022-05-16 08:08+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -434,8 +434,8 @@ msgstr "Aucune"
 msgid "Whirl"
 msgstr "Tourbillon"
 
-#: src/container.c:1658 src/settings.c:122 src/settings.c:127
-#: src/settings.c:382
+#: src/container.c:1658 src/settings.c:130 src/settings.c:135
+#: src/settings.c:413
 msgid "Box"
 msgstr "Boîte"
 
@@ -599,7 +599,7 @@ msgstr "Seulement lors des déplacements de fenêtre"
 
 #: src/desktops.c:2801
 msgid "Resistance at edge of screen:"
-msgstr "Résistance des bords de l'écran :"
+msgstr "Résistance du bord de l'écran :"
 
 #: src/desktops.c:2813
 msgid "Areas"
@@ -1084,7 +1084,7 @@ msgstr "Tapez « help <commande> » pour une description individuelle\n"
 msgid "         <command>     : <description>\n"
 msgstr "         <commande>   :  <description>\n"
 
-#: src/main.c:532
+#: src/main.c:516
 #, c-format
 msgid ""
 "%s must be a directory in which you have\n"
@@ -1093,7 +1093,7 @@ msgstr ""
 "%s doit être un répertoire pour lequel vous avez\n"
 "les droits de lecture, d'écriture et d'exécution.\n"
 
-#: src/main.c:632
+#: src/main.c:616
 #, c-format
 msgid ""
 "!!!!!!!! ERROR ERROR ERROR ERROR !!!!!!!!\n"
@@ -1122,7 +1122,7 @@ msgstr ""
 "un effacement manuel de ce programme, ou une erreur lors de\n"
 "l'installation d'Enlightenment.\n"
 
-#: src/main.c:646
+#: src/main.c:630
 #, c-format
 msgid ""
 "!!!!!!!! ERROR ERROR ERROR ERROR !!!!!!!!\n"
@@ -1363,51 +1363,51 @@ msgstr ""
 "\n"
 "... Enfin j'espère.\n"
 
-#: src/session.c:603
+#: src/session.c:602
 msgid "Are you sure?"
 msgstr "Vraiment ?"
 
-#: src/session.c:605
+#: src/session.c:604
 msgid "Are you sure you wish to log out ?"
 msgstr "Voulez-vous vraiment quitter la session ?"
 
-#: src/session.c:613
+#: src/session.c:612
 msgid "Yes, Shut Down"
 msgstr "Oui, Éteindre"
 
-#: src/session.c:615
+#: src/session.c:614
 msgid "Yes, Reboot"
 msgstr "Oui, Redémarrer"
 
-#: src/session.c:618
+#: src/session.c:617
 msgid "Yes, Log Out"
 msgstr "Oui, Quitter"
 
-#: src/session.c:620
+#: src/session.c:619
 msgid "No"
 msgstr "Non"
 
-#: src/session.c:741
+#: src/session.c:740
 msgid "Enable session script"
 msgstr "Activer le script de session"
 
-#: src/session.c:746
+#: src/session.c:745
 msgid "Enable logout dialog"
 msgstr "Activer le dialogue de fermeture de session"
 
-#: src/session.c:751
+#: src/session.c:750
 msgid "Enable reboot/halt on logout"
 msgstr "Activer Éteindre / Redémarrer à la fermeture de session"
 
-#: src/session.c:757
+#: src/session.c:756
 msgid "Session"
 msgstr "Session"
 
-#: src/session.c:757
+#: src/session.c:756
 msgid "Session Settings"
 msgstr "Paramètres de Session"
 
-#: src/session.c:761
+#: src/session.c:760
 msgid ""
 "Enlightenment Session\n"
 "Settings Dialog"
@@ -1415,100 +1415,108 @@ msgstr ""
 "Dialogue de paramétrage\n"
 "de la Session"
 
-#: src/settings.c:86
+#: src/settings.c:94
 msgid "Move methods:"
 msgstr ""
 "Méthodes de\n"
 "Déplacement :"
 
-#: src/settings.c:89
+#: src/settings.c:97
 msgid "Resize methods:"
 msgstr ""
 "Méthodes de\n"
 "Redimensionnement :"
 
-#: src/settings.c:92 src/settings.c:97 src/settings.c:367
+#: src/settings.c:100 src/settings.c:105 src/settings.c:398
 msgid "Opaque"
 msgstr "Opaque"
 
-#: src/settings.c:102 src/settings.c:107 src/settings.c:372
+#: src/settings.c:110 src/settings.c:115 src/settings.c:403
 msgid "Technical"
 msgstr "Technique"
 
-#: src/settings.c:112 src/settings.c:117 src/settings.c:377
+#: src/settings.c:120 src/settings.c:125 src/settings.c:408
 msgid "TechOpaque"
 msgstr "Opaque+Tech."
 
-#: src/settings.c:136
+#: src/settings.c:144
 msgid "Avoid server grab"
 msgstr ""
 "Éviter de figer l'affichage pendant les changements de taille / position"
 
-#: src/settings.c:144
+#: src/settings.c:152
 msgid "Move/resize geometry info postion:"
 msgstr "Coordonnées géométriques de la fenêtre :"
 
-#: src/settings.c:148
+#: src/settings.c:156
 msgid "Window center (O/T/B methods)"
 msgstr "Centre de la fenêtre"
 
-#: src/settings.c:154
+#: src/settings.c:162
 msgid "Always screen corner"
 msgstr "Toujours dans le coin de l'écran"
 
-#: src/settings.c:160
+#: src/settings.c:168
 msgid "Don't show"
 msgstr "Ne pas afficher"
 
-#: src/settings.c:170
+#: src/settings.c:178
 msgid "Default resize policy:"
 msgstr "Règle de redimensionnement par défaut :"
 
-#: src/settings.c:174
+#: src/settings.c:182
 msgid "Conservative"
 msgstr "Conservatrice (maximisation sans aucune superposition)"
 
-#: src/settings.c:180
+#: src/settings.c:188
 msgid "Available"
 msgstr "Disponible (maximisation sur les fenêtres de niveau inférieur)"
 
-#: src/settings.c:186
+#: src/settings.c:194
 msgid "Absolute"
 msgstr "Absolue (maximisation sur tout l'écran)"
 
-#: src/settings.c:196
+#: src/settings.c:204
 msgid "Update window while moving"
 msgstr "Rafraîchir la fenêtre en cours de déplacement"
 
-#: src/settings.c:201
+#: src/settings.c:209
 msgid "Synchronize move/resize with application"
 msgstr "Synchroniser déplacement / redimensionnement avec l'application"
 
-#: src/settings.c:206
+#: src/settings.c:214
 msgid "Do not cover dragbar"
 msgstr "Ne pas recouvrir la barre de bureau"
 
-#: src/settings.c:211
+#: src/settings.c:219
 msgid "Enable smart maximization"
 msgstr "Activer la maximisation intelligente"
 
-#: src/settings.c:216
+#: src/settings.c:224
 msgid "Animate window maximization"
 msgstr "Animer la maximisation des fenêtres"
 
-#: src/settings.c:220
+#: src/settings.c:228
 msgid "Maximization animation speed:"
 msgstr "Vitesse d'animation :"
 
-#: src/settings.c:231
+#: src/settings.c:240
+msgid "Resistance at screen boundaries:"
+msgstr "Résistance des bords de l'écran :"
+
+#: src/settings.c:250
+msgid "Resistance at window boundaries:"
+msgstr "Résistance des bords de la fenêtre :"
+
+#: src/settings.c:262
 msgid "Move/Resize"
 msgstr "Déplacement / Taille"
 
-#: src/settings.c:231
+#: src/settings.c:262
 msgid "Move & Resize Settings"
 msgstr "Paramètres de Déplacement et de Taille"
 
-#: src/settings.c:235
+#: src/settings.c:266
 msgid ""
 "Enlightenment Move & Resize\n"
 "Method Settings Dialog"
@@ -1516,79 +1524,79 @@ msgstr ""
 "Dialogue de paramétrage de\n"
 "Déplacement et de Taille de Fenêtre"
 
-#: src/settings.c:326
+#: src/settings.c:357
 msgid "Dialog windows appear together with their owner"
 msgstr "Les fenêtres de dialogue apparaissent en même temps que leur parent"
 
-#: src/settings.c:331
+#: src/settings.c:362
 msgid "Switch to desktop where dialog appears"
 msgstr "Aller au bureau où une fenêtre apparaît"
 
-#: src/settings.c:339
+#: src/settings.c:370
 msgid "Place windows manually"
 msgstr "Placer les fenêtres manuellement"
 
-#: src/settings.c:344
+#: src/settings.c:375
 msgid "Place windows under mouse"
 msgstr "Placer les fenêtres sous la souris"
 
-#: src/settings.c:349
+#: src/settings.c:380
 msgid "Center windows when desk is full"
 msgstr "Placer les fenêtres au centre quand le bureau est plein"
 
-#: src/settings.c:354
+#: src/settings.c:385
 msgid "Slide windows in when they appear"
 msgstr "Faire glisser les fenêtres lorsqu'elles apparaissent"
 
-#: src/settings.c:359
+#: src/settings.c:390
 msgid "Slide windows around when cleaning up"
 msgstr "Faire glisser les fenêtres lorsqu'elles disparaissent"
 
-#: src/settings.c:364
+#: src/settings.c:395
 msgid "Slide method:"
 msgstr "Méthode de glissement :"
 
-#: src/settings.c:389
+#: src/settings.c:420
 msgid "Appear slide speed:"
 msgstr "Vitesse d'apparition des fenêtres :"
 
-#: src/settings.c:398
+#: src/settings.c:429
 msgid "Cleanup slide speed:"
 msgstr "Vitesse de disparition des fenêtres :"
 
-#: src/settings.c:411
+#: src/settings.c:442
 msgid "Animate shading and unshading of windows"
 msgstr "Animer l'enroulement des fenêtres"
 
-#: src/settings.c:415
+#: src/settings.c:446
 msgid "Window shading speed:"
 msgstr "Vitesse d'enroulement des fenêtres :"
 
-#: src/settings.c:428
+#: src/settings.c:459
 msgid "Ignore struts/panels for placing normal windows"
 msgstr "Ignorer les docks / panneaux pour placer les fenêtres"
 
-#: src/settings.c:433
+#: src/settings.c:464
 msgid "Ignore struts/panels when windows are fullscreen"
 msgstr "Ignorer les docks / panneaux quand les fenêtres sont en plein écran"
 
-#: src/settings.c:438
+#: src/settings.c:469
 msgid "Ignore struts/panels when maximizing windows"
 msgstr "Ignorer les docks / panneaux lors de la maximisation des fenêtres"
 
-#: src/settings.c:443
+#: src/settings.c:474
 msgid "Raise fullscreen windows"
 msgstr "Élever les fenêtres en plein écran"
 
-#: src/settings.c:449
+#: src/settings.c:480
 msgid "Placement"
 msgstr "Placement"
 
-#: src/settings.c:449
+#: src/settings.c:480
 msgid "Window Placement Settings"
 msgstr "Paramètres du Placement des fenêtres"
 
-#: src/settings.c:453
+#: src/settings.c:484
 msgid ""
 "Enlightenment Window Placement\n"
 "Settings Dialog"
@@ -1596,31 +1604,31 @@ msgstr ""
 "Dialogue de paramétrage du\n"
 "Placement des fenêtres"
 
-#: src/settings.c:493
+#: src/settings.c:524
 msgid "Enable dialog headers"
 msgstr "Activer les en-têtes sur les dialogues"
 
-#: src/settings.c:499
+#: src/settings.c:530
 msgid "Enable button images"
 msgstr "Images de Bouton (NdT : fonction désormais désactivée)"
 
-#: src/settings.c:508
+#: src/settings.c:539
 msgid "Enable sliding startup windows"
 msgstr "Activer les rideaux glissants au lancement"
 
-#: src/settings.c:519
+#: src/settings.c:550
 msgid "Magwin zoom resolution"
 msgstr "Résolution de la loupe"
 
-#: src/settings.c:531 config/strings.c:137 config/strings.c:154
+#: src/settings.c:562 config/strings.c:137 config/strings.c:154
 msgid "Miscellaneous"
 msgstr "Divers"
 
-#: src/settings.c:531
+#: src/settings.c:562
 msgid "Miscellaneous Settings"
 msgstr "Paramètres Divers"
 
-#: src/settings.c:535
+#: src/settings.c:566
 msgid ""
 "Enlightenment Miscellaneous\n"
 "Settings Dialog"
@@ -1628,55 +1636,55 @@ msgstr ""
 "Dialogue de paramétrage\n"
 "Divers"
 
-#: src/settings.c:571
+#: src/settings.c:602
 msgid "Enable composite"
 msgstr "Activer l'extension composite"
 
-#: src/settings.c:579
+#: src/settings.c:610
 msgid "Enable fading"
 msgstr "Activer le fondu"
 
-#: src/settings.c:583
+#: src/settings.c:614
 msgid "Fading speed:"
 msgstr "Vitesse de fondu :"
 
-#: src/settings.c:596
+#: src/settings.c:627
 msgid "Shadows off"
 msgstr "Ombres Désactivées"
 
-#: src/settings.c:602
+#: src/settings.c:633
 msgid "Shadows Sharp"
 msgstr "Ombres Nettes"
 
-#: src/settings.c:608
+#: src/settings.c:639
 msgid "Shadows Sharp2"
 msgstr "Ombres Nettes2"
 
-#: src/settings.c:614
+#: src/settings.c:645
 msgid "Shadows Blurred"
 msgstr "Ombres Floues"
 
-#: src/settings.c:623
+#: src/settings.c:654
 msgid "Default focused window opacity:"
 msgstr "Opacité par défaut des fenêtres avec le focus :"
 
-#: src/settings.c:632
+#: src/settings.c:663
 msgid "Default unfocused window opacity:"
 msgstr "Opacité par défaut des fenêtres sans le focus :"
 
-#: src/settings.c:641
+#: src/settings.c:672
 msgid "Default pop-up window opacity:"
 msgstr "Opacité par défaut des fenêtres nouvellement ouvertes :"
 
-#: src/settings.c:652
+#: src/settings.c:683
 msgid "Composite"
 msgstr "Extension composite"
 
-#: src/settings.c:652
+#: src/settings.c:683
 msgid "Composite Settings"
 msgstr "Paramètres de l'Extension composite"
 
-#: src/settings.c:656
+#: src/settings.c:687
 msgid ""
 "Enlightenment Composite\n"
 "Settings Dialog"
@@ -1684,7 +1692,7 @@ msgstr ""
 "Dialogue de paramétrage de\n"
 "l'Extension composite"
 
-#: src/settings.c:736
+#: src/settings.c:767
 msgid "Enlightenment Settings"
 msgstr "Paramètres d'Enlightenment"
 
